@@ -1,0 +1,33 @@
+/* style.css */
+.attr_red {
+  background-color: red;
+}
+
+body {
+  font-family: 'Meiryo',-apple-system,'BlinkMacSystemFont',
+               '.SFNSDisplay-Regular','Hiragino Kaku Gothic Pro',
+               'Yu Gothic','MS PGothic','Segoe UI','Verdana',
+               'Helvetica','Arial',sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 50px;
+}
+
+th {
+  background-color: whitesmoke;
+}
+
+td, th {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+strong.strongest {
+  color: red;
+}
+
+strong.weakest {
+  color: blue;
+}
