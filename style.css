@@ -1,8 +1,4 @@
 /* style.css */
-.attr_red {
-  background-color: red;
-}
-
 body {
   font-family: 'Meiryo',-apple-system,'BlinkMacSystemFont',
                '.SFNSDisplay-Regular','Hiragino Kaku Gothic Pro',
@@ -30,4 +26,17 @@ strong.strongest {
 
 strong.weakest {
   color: blue;
+}
+
+/* 属性の色(空白スペースの背景色として使用 */
+.attr_red {
+  background-color: red;
+}
+
+.attr_yellow {
+  background-color: yellow;
+}
+
+.attr_purple {
+  background-color: purple;
 }
