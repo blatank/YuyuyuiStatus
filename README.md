@@ -14,6 +14,6 @@
 - 三ノ輪銀 https://blatan.info/?p=9567
 
 ## HTMLのテーブル
-- 乃木園子(中学生) https://github.com/blatank/YuyuyuiStatus/edit/master/sonochu.html
+- 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
 - 伊予島杏 まだアップしてない 
-- 三ノ輪銀 https://github.com/blatank/YuyuyuiStatus/edit/master/gin.html
+- 三ノ輪銀 https://blatank.github.io/YuyuyuiStatus/gin.html
