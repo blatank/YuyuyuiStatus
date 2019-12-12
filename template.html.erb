@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title><%= @title %></title>
+</head>
+<body>
+  <header>
+    <h1><%= @title %></h1>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>属性</th>
+          <th>名称</th>
+          <th>HP</th>
+          <th>ATK</th>
+          <th>踏張</th>
+          <th>速度</th>
+          <th>CRT</th>
+          <th>コスト</th>	
+          <th>SP</th>
+        </tr>
+      </thead>
+      <tmain>
+        <% @datas.heros.each do |hero| %>
+          <% if hero.rare == "UR" %>
+            <tr class="ur">
+          <% else %>
+            <tr>
+          <% end %>
+            <td class="attr_<%= hero.color %>" >　</td>
+            <td><%= hero.name %></td>
+
+            <td>
+            <% if hero.hp_class == "" %>
+              <%= hero.hp %>
+            <% else %>
+              <strong class="<%= hero.hp_class %>"><%= hero.hp %></strong>
+            <% end %>
+            </td>
+
+            <td>
+              <% if hero.atk_class == "" %>
+                <%= hero.atk %>
+              <% else %>
+                <strong class="<%= hero.atk_class %>"><%= hero.atk %></strong>
+              <% end %>
+            </td>
+            <td><%= hero.stamina %></td>
+            <td><%= hero.speed %></td>
+
+            <td>
+                <% if hero.crt_class == "" %>
+                  <%= hero.crt %>
+                <% else %>
+                  <strong class="<%= hero.crt_class %>"><%= hero.crt %></strong>
+                <% end %>
+              </td>
+
+            <td><%= hero.cost %></td>
+            <td><%= hero.sp %></td>
+          </tr>
+        <% end %>
+      </tmain>
+    </table>
+  </main>
+</body>
+</html>
