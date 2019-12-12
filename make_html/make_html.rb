@@ -4,8 +4,9 @@ require 'ERB'
 require './Hero'
 require './StatusTable'
 
-def make_html(csvfile, htmlfile, title="")
 
+def make_html(csvfile, htmlfile, title="")
+  template_file = "./template.html.erb"
 
   # HTMLヘッダ出力
 
@@ -26,9 +27,13 @@ def make_html(csvfile, htmlfile, title="")
   @datas.analyze
 
   # テンプレに添って出力
-  erb = ERB.new(File.read(htmlfile))
-  erb.filename = htmlfile
-  puts erb.result(binding)
+  erb = ERB.new(File.read(template_file))
+  erb.filename = template_file
+
+  File.open(htmlfile, "w") do |f|
+    f.puts(erb.result(binding))
+  end
+  # puts erb.result(binding)
    # datas.each do |data|
   #   puts data.size
   # end
