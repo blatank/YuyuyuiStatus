@@ -16,6 +16,6 @@
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
-- 伊予島杏 まだアップしてない 
+- 伊予島杏 https://blatank.github.io/YuyuyuiStatus/anzu.html
 - 三ノ輪銀 https://blatank.github.io/YuyuyuiStatus/gin.html
 - 楠芽吹 https://blatank.github.io/YuyuyuiStatus/mebuki.html
