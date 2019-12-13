@@ -27,9 +27,10 @@ class StatusTable
     crt_data     = []
     cost_data    = []
     sp_data      = []
+    
     @heros.each do |hero|
       # URを入れるときっと最強になってしまうので参考程度にしたい
-      if hero.rare != "UR"
+      if !hero.isUR?
         hp_data.push(hero.hp)
         atk_data.push(hero.atk)
         stamina_data.push(STATUS_NUM[hero.stamina])
@@ -37,12 +38,14 @@ class StatusTable
         crt_data.push(STATUS_NUM[hero.crt])
         cost_data.push(hero.cost)
         sp_data.push(hero.sp)
+      else
+        puts "info:#{hero.name}はURのため、解析対象から除外しました"
       end
     end
     
     # URを含むとずれるのでこちらも評価しない
     @heros.each do |hero|
-      if hero.rare != "UR"
+      if !hero.isUR?
         # HP
         if hp_data.min != hp_data.max
           if hero.hp == hp_data.max

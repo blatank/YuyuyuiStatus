@@ -32,6 +32,9 @@ strong.weakest {
 .attr_red {
   background-color: red;
 }
+.attr_blue {
+  background-color: blue;
+}
 .attr_green {
   background-color: green;
 }

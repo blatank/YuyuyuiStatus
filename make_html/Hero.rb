@@ -23,13 +23,13 @@ class Hero
     @color     = line[0]
     @rare      = line[1]
     @name      = line[2]
-    @hp        = line[3]
-    @atk       = line[4]
+    @hp        = line[3].to_i
+    @atk       = line[4].to_i
     @stamina   = line[5]
     @speed     = line[6]
     @crt       = line[7]
-    @cost      = line[8]
-    @sp        = line[9]
+    @cost      = line[8].to_i
+    @sp        = line[9].to_i
 
     @hp_class      = ""
     @atk_class     = ""
@@ -38,5 +38,9 @@ class Hero
     @crt_class     = ""
     @cost_class    = ""
     @sp_class    = ""
+  end
+
+  def isUR?
+    return @rare == "UR"
   end
 end

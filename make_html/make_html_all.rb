@@ -1,3 +1,6 @@
 require './make_html'
 
-make_html("../csv/sonochu.csv")
+# CSVディレクトリ内のCSVファイルをすべて変換
+Dir.glob("../csv/*.csv") do |csv|
+	make_html(csv)
+end
