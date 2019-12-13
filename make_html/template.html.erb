@@ -51,22 +51,51 @@
                 <strong class="<%= hero.atk_class %>"><%= hero.atk %></strong>
               <% end %>
             </td>
-            <td><%= hero.stamina %></td>
-            <td><%= hero.speed %></td>
+
 
             <td>
-                <% if hero.crt_class == "" %>
-                  <%= hero.crt %>
-                <% else %>
-                  <strong class="<%= hero.crt_class %>"><%= hero.crt %></strong>
-                <% end %>
-              </td>
+              <% if hero.stamina_class == "" %>
+                <%= hero.stamina %>
+              <% else %>
+                <strong class="<%= hero.stamina_class %>"><%= hero.stamina %></strong>
+              <% end %>
+            </td>
 
-            <td><%= hero.cost %></td>
-            <td><%= hero.sp %></td>
+            <td>
+              <% if hero.speed_class == "" %>
+                <%= hero.speed %>
+              <% else %>
+                <strong class="<%= hero.speed_class %>"><%= hero.speed %></strong>
+              <% end %>
+            </td>
+
+            <td>
+              <% if hero.crt_class == "" %>
+                <%= hero.crt %>
+              <% else %>
+                <strong class="<%= hero.crt_class %>"><%= hero.crt %></strong>
+              <% end %>
+            </td>
+
+            <td>
+              <% if hero.cost_class == "" %>
+                <%= hero.cost %>
+              <% else %>
+                <strong class="<%= hero.cost_class %>"><%= hero.cost %></strong>
+              <% end %>
+            </td>
+
+            <td>
+              <% if hero.sp_class == "" %>
+                <%= hero.sp %>
+              <% else %>
+                <strong class="<%= hero.sp_class %>"><%= hero.sp %></strong>
+              <% end %>
+            </td>
           </tr>
         <% end %>
       </tmain>
+      <caption><span class="ur">　</span>色の行はURの勇者です(参考値)。</caption>
     </table>
   </main>
 </body>

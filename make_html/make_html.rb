@@ -5,16 +5,18 @@ require './Hero'
 require './StatusTable'
 
 
-def make_html(csvfile, htmlfile, title="")
+def make_html(csvfile) #, htmlfile, title="")
   template_file = "./template.html.erb"
 
   # HTMLヘッダ出力
 
   ### 各行出力 ###
   @tmp_datas = CSV.open(csvfile)
-  @title = title
-  # 先頭行はコメント扱いなので捨てる
-  @tmp_datas.shift
+
+  # 先頭行だけデータから抜く
+  topRow   = @tmp_datas.shift
+  @title   = "#{topRow[0]}のステータス"   # タイトル
+  htmlfile = "../#{topRow[1]}.html"     # 出力先
 
   @datas = StatusTable.new
 
