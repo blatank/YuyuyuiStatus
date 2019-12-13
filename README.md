@@ -19,3 +19,9 @@
 - 伊予島杏 https://blatank.github.io/YuyuyuiStatus/anzu.html
 - 三ノ輪銀 https://blatank.github.io/YuyuyuiStatus/gin.html
 - 楠芽吹 https://blatank.github.io/YuyuyuiStatus/mebuki.html
+
+### HTMLのテーブルをCSVから作る
+1. cd make_html
+1. ruby make_html_all.rb
+を行うと、元のディレクトリにHTMLファイルが自動生成されます。
+本当はHTMLディレクトリに変えたいが、このパスでリンク貼ってしまったこともあるので変えるのが面倒くさい・・・。
