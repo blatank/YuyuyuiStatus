@@ -3,7 +3,7 @@
 
 ## ToDo
 - インデックスページを作成
-- アンちゃん(伊予島杏)のHTMLを作成
+- スマホで観れるようにCSS調整
 
 ## 将来的なこと
 - 一人ひとりHTML書くのも面倒なので最終的にはCSVか何かを読み込ませる形に変えるかも
@@ -19,6 +19,7 @@
 - 伊予島杏 https://blatank.github.io/YuyuyuiStatus/anzu.html
 - 三ノ輪銀 https://blatank.github.io/YuyuyuiStatus/gin.html
 - 楠芽吹 https://blatank.github.io/YuyuyuiStatus/mebuki.html
+- 鷲尾須美 https://blatank.github.io/YuyuyuiStatus/wassy.html
 
 ### HTMLのテーブルをCSVから作る
 1. cd make_html
