@@ -8,11 +8,13 @@
 ## 将来的なこと
 - 一人ひとりHTML書くのも面倒なので最終的にはCSVか何かを読み込ませる形に変えるかも
 
-## 記事ＵＲＬ
+## 記事URL
 - 乃木園子(中学生) https://blatan.info/?p=7984
 - 伊予島杏 https://blatan.info/?p=8266 
 - 三ノ輪銀 https://blatan.info/?p=9567
 - 楠芽吹 https://blatan.info/?p=10189
+- 鷲尾須美 https://blatan.info/?p=10444
+- 高嶋友奈 https://blatan.info/?p=11359
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
@@ -20,6 +22,7 @@
 - 三ノ輪銀 https://blatank.github.io/YuyuyuiStatus/gin.html
 - 楠芽吹 https://blatank.github.io/YuyuyuiStatus/mebuki.html
 - 鷲尾須美 https://blatank.github.io/YuyuyuiStatus/wassy.html
+- 高嶋友奈 https://blatank.github.io/YuyuyuiStatus/takashima.html
 
 ### HTMLのテーブルをCSVから作る
 1. cd make_html
