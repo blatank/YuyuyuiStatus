@@ -28,10 +28,11 @@ th {
 td, th {
   border: 1px solid lightgray;
   padding: 5px;
+  white-space: nowrap;
 }
 
 td.heroname {
-  /* white-space: nowrap; */
+  white-space: normal;
 }
 
 strong.strongest {
