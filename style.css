@@ -4,11 +4,21 @@ body {
                '.SFNSDisplay-Regular','Hiragino Kaku Gothic Pro',
                'Yu Gothic','MS PGothic','Segoe UI','Verdana',
                'Helvetica','Arial',sans-serif;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
 }
+
+h1 {
+  margin: 0 0 30px;
+}
+
+/* common */
 
 table {
   border-collapse: collapse;
-  margin-left: 50px;
+  /*後で直す margin-left: 50px; */
+  margin: 0 auto 0;
 }
 
 th {
@@ -17,7 +27,11 @@ th {
 
 td, th {
   border: 1px solid lightgray;
-  padding: 10px;
+  padding: 5px;
+}
+
+td.heroname {
+  white-space: nowrap;
 }
 
 strong.strongest {
@@ -49,4 +63,20 @@ strong.weakest {
 
 .ur {
   background-color: gold;
+}
+
+
+
+/* midium screen */
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  td, th {
+    padding: 10px;
+  }
+}
+/* large screen */
+@media (min-width: 800px) {
+
 }
