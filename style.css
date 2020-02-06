@@ -31,7 +31,7 @@ td, th {
 }
 
 td.heroname {
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 strong.strongest {
