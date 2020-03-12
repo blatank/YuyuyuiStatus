@@ -16,6 +16,7 @@
 - 鷲尾須美 https://blatan.info/?p=10444
 - 高嶋友奈 https://blatan.info/?p=11359
 - 秋原雪花 https://blatan.info/?p=11619
+- 郡千景 https://blatan.info/?p=12070
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
@@ -25,6 +26,7 @@
 - 鷲尾須美 https://blatank.github.io/YuyuyuiStatus/wassy.html
 - 高嶋友奈 https://blatank.github.io/YuyuyuiStatus/takashima.html
 - 秋原雪花 https://blatank.github.io/YuyuyuiStatus/sekka.html
+- 郡千景 https://blatank.github.io/YuyuyuiStatus/gunchan.html
 
 ### HTMLのテーブルをCSVから作る
 1. cd make_html
