@@ -31,7 +31,9 @@
 - 山伏しずく https://blatank.github.io/YuyuyuiStatus/shizuku.html
 
 ### HTMLのテーブルをCSVから作る
-1. cd make_html
-1. ruby make_html_all.rb
+```
+cd make_html
+ruby make_html_all.rb
+```
 を行うと、元のディレクトリにHTMLファイルが自動生成されます。
 本当はHTMLディレクトリに変えたいが、このパスでリンク貼ってしまったこともあるので変えるのが面倒くさい・・・。
