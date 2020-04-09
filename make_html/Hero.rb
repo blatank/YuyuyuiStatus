@@ -11,6 +11,8 @@ class Hero
   attr_reader   :crt
   attr_reader   :cost
   attr_reader   :sp
+  attr_reader   :sp_ratio
+  attr_reader   :sp_atk
   attr_accessor :hp_class
   attr_accessor :atk_class
   attr_accessor :stamina_class
@@ -18,6 +20,9 @@ class Hero
   attr_accessor :crt_class
   attr_accessor :cost_class
   attr_accessor :sp_class
+  attr_accessor :sp_ratio_class
+  attr_accessor :sp_atk_class
+
   
   def initialize(line)
     @color     = line[0]
@@ -31,13 +36,23 @@ class Hero
     @cost      = line[8].to_i
     @sp        = line[9].to_i
 
-    @hp_class      = ""
-    @atk_class     = ""
-    @stamina_class = ""
-    @speed_class   = ""
-    @crt_class     = ""
-    @cost_class    = ""
-    @sp_class    = ""
+    if line.length > 10
+      @sp_ratio  = line[10].to_i
+      @sp_atk    = @sp_ratio * @atk
+    else
+      @sp_ratio  = ""
+      @sp_atk    = ""
+    end
+
+    @hp_class        = ""
+    @atk_class       = ""
+    @stamina_class   = ""
+    @speed_class     = ""
+    @crt_class       = ""
+    @cost_class      = ""
+    @sp_class        = ""
+    @sp_ratio_class  = ""
+    @sp_atk_class    = ""
   end
 
   def isUR?

@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  margin: 0 0 30px;
+  margin: 0px;
 }
 
 /* common */
@@ -64,6 +64,14 @@ strong.weakest {
 
 .ur {
   background-color: gold;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  text-align: left;
 }
 
 

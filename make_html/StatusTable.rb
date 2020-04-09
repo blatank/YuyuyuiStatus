@@ -20,13 +20,15 @@ class StatusTable
   def analyze()
     # 最大値最小値を解析
 
-    hp_data      = []
-    atk_data     = []
-    stamina_data = []
-    speed_data   = []
-    crt_data     = []
-    cost_data    = []
-    sp_data      = []
+    hp_data       = []
+    atk_data      = []
+    stamina_data  = []
+    speed_data    = []
+    crt_data      = []
+    cost_data     = []
+    sp_data       = []
+    sp_ratio_data = []
+    sp_atk_data   = []
     
     @heros.each do |hero|
       # URを入れるときっと最強になってしまうので参考程度にしたい
@@ -38,6 +40,11 @@ class StatusTable
         crt_data.push(STATUS_NUM[hero.crt])
         cost_data.push(hero.cost)
         sp_data.push(hero.sp)
+
+        unless hero.sp_ratio == ""
+          sp_ratio_data.push(hero.sp_ratio)
+          sp_atk_data.push(hero.sp_atk)
+        end
       else
         puts "info:#{hero.name}はURのため、解析対象から除外しました"
       end
@@ -106,6 +113,24 @@ class StatusTable
             hero.sp_class = "strongest"
           elsif hero.sp == sp_data.min
             hero.sp_class = "weakest"
+          end
+        end
+
+        unless hero.sp_ratio == ""
+          # 必殺技倍率は高い方をstrongestにする
+          if sp_ratio_data.min != sp_ratio_data.max
+            if hero.sp_ratio == sp_ratio_data.max
+              hero.sp_ratio_class = "strongest"
+            elsif hero.sp_ratio == sp_ratio_data.min
+              hero.sp_ratio_class = "weakest"
+            end
+          end
+
+          # 必殺技ATKは高い方をstrongestにする
+          if hero.sp_atk == sp_atk_data.max
+            hero.sp_atk_class = "strongest"
+          elsif hero.sp_atk == sp_atk_data.min
+            hero.sp_atk_class = "weakest"
           end
         end
       end
