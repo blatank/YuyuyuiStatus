@@ -19,7 +19,7 @@
 - 郡千景 https://blatan.info/?p=12070
 - 山伏しずく https://blatan.info/?p=12095
 - 結城友奈 https://blatan.info/?p=12935
-- 東郷三森 
+- 東郷三森 https://blatan.info/?p=13310
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
