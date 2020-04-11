@@ -55,7 +55,7 @@ class Hero
     @sp_atk_class    = ""
   end
 
-  def isUR?
-    return @rare == "UR"
+  def isSSR?
+    return @rare == "SSR"
   end
 end

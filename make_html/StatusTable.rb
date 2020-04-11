@@ -32,7 +32,7 @@ class StatusTable
     
     @heros.each do |hero|
       # URを入れるときっと最強になってしまうので参考程度にしたい
-      if !hero.isUR?
+      if hero.isSSR?
         hp_data.push(hero.hp)
         atk_data.push(hero.atk)
         stamina_data.push(STATUS_NUM[hero.stamina])
@@ -46,13 +46,13 @@ class StatusTable
           sp_atk_data.push(hero.sp_atk)
         end
       else
-        puts "info:#{hero.name}はURのため、解析対象から除外しました"
+        puts "info:#{hero.name}はSSRではないため、解析対象から除外しました"
       end
     end
     
     # URを含むとずれるのでこちらも評価しない
     @heros.each do |hero|
-      if !hero.isUR?
+      if hero.isSSR?
         # HP
         if hp_data.min != hp_data.max
           if hero.hp == hp_data.max
