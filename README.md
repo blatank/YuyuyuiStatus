@@ -4,6 +4,7 @@
 ## ToDo
 - インデックスページを作成
 - スマホで観れるようにCSS調整
+- 全勇者をテーブル表示
 
 ## 将来的なこと
 - 一人ひとりHTML書くのも面倒なので最終的にはCSVか何かを読み込ませる形に変えるかも
@@ -33,11 +34,12 @@
 - 山伏しずく https://blatank.github.io/YuyuyuiStatus/shizuku.html
 - 結城友奈 https://blatank.github.io/YuyuyuiStatus/yuna.html
 - 東郷三森 https://blatank.github.io/YuyuyuiStatus/togo.html
+- 弥勒蓮華 https://blatank.github.io/YuyuyuiStatus/renchi.html
 
 ### HTMLのテーブルをCSVから作る
 ```
-cd make_html
-ruby make_html_all.rb
+$ cd make_html
+$ ruby make_html_all.rb
 ```
 を行うと、元のディレクトリにHTMLファイルが自動生成されます。
 本当はHTMLディレクトリに変えたいが、このパスでリンク貼ってしまったこともあるので変えるのが面倒くさい・・・。
