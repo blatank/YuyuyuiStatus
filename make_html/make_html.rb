@@ -28,7 +28,7 @@ def make_html(csvfile) #, htmlfile, title="")
   @datas.analyze
 
   # テンプレ準備
-  erb = ERB.new(File.read(template_file))
+  erb = ERB.new(File.read(template_file), trim_mode: '%>')
   erb.filename = template_file
 
   # テンプレに添ってHTML出力

@@ -103,17 +103,19 @@
 
             <% unless hero.sp_ratio == "" %>
               <td>
+                <% sp_ratio = "%.15g"%(hero.sp_ratio / 10.0) %>
                 <% if hero.sp_ratio_class == "" %>
-                  <%= hero.sp_ratio %>
+                  <%= sp_ratio %>
                 <% else %>
-                  <strong class="<%= hero.sp_ratio_class %>"><%= hero.sp_ratio %></strong>
+                  <strong class="<%= hero.sp_ratio_class %>"><%= sp_ratio %></strong>
                 <% end %>
               </td>
               <td>
+                <% sp_atk = "%.15g"%(hero.sp_atk / 10.0) %>
                 <% if hero.sp_atk_class == "" %>
-                  <%= hero.sp_atk %>
+                  <%= sp_atk %>
                 <% else %>
-                  <strong class="<%= hero.sp_atk_class %>"><%= hero.sp_atk %></strong>
+                  <strong class="<%= hero.sp_atk_class %>"><%= sp_atk %></strong>
                 <% end %>
               </td>
             <% end %>

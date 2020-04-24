@@ -37,7 +37,8 @@ class Hero
     @sp        = line[9].to_i
 
     if line.length > 10
-      @sp_ratio  = line[10].to_i
+      # 小数点以下があるものがあるので、10倍する(テーブル作成時に元に戻す)
+      @sp_ratio  = (line[10].to_f * 10).to_i
       @sp_atk    = @sp_ratio * @atk
     else
       @sp_ratio  = ""
