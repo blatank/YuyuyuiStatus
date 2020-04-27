@@ -20,7 +20,7 @@
 - 郡千景 https://blatan.info/?p=12070
 - 山伏しずく https://blatan.info/?p=12095
 - 結城友奈 https://blatan.info/?p=12935
-- 東郷三森 https://blatan.info/?p=13310
+- 東郷美森 https://blatan.info/?p=13310
 - 乃木若葉
 - 弥勒夕海子 https://blatan.info/?p=13758
 
@@ -35,7 +35,7 @@
 - 郡千景 https://blatank.github.io/YuyuyuiStatus/gunchan.html
 - 山伏しずく https://blatank.github.io/YuyuyuiStatus/shizuku.html
 - 結城友奈 https://blatank.github.io/YuyuyuiStatus/yuna.html
-- 東郷三森 https://blatank.github.io/YuyuyuiStatus/togo.html
+- 東郷美森 https://blatank.github.io/YuyuyuiStatus/togo.html
 - 弥勒蓮華 https://blatank.github.io/YuyuyuiStatus/renchi.html
 - 乃木若葉 https://blatank.github.io/YuyuyuiStatus/wakaba.html
 - 弥勒夕海子 https://blatank.github.io/YuyuyuiStatus/miroku.html
