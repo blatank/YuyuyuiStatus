@@ -22,6 +22,7 @@
 - 結城友奈 https://blatan.info/?p=12935
 - 東郷三森 https://blatan.info/?p=13310
 - 乃木若葉
+- 弥勒夕海子 https://blatan.info/?p=13758
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
@@ -37,6 +38,7 @@
 - 東郷三森 https://blatank.github.io/YuyuyuiStatus/togo.html
 - 弥勒蓮華 https://blatank.github.io/YuyuyuiStatus/renchi.html
 - 乃木若葉 https://blatank.github.io/YuyuyuiStatus/wakaba.html
+- 弥勒夕海子 https://blatank.github.io/YuyuyuiStatus/miroku.html
 
 ### HTMLのテーブルをCSVから作る
 ```
