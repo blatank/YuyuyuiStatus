@@ -23,6 +23,7 @@
 - 東郷美森 https://blatan.info/?p=13310
 - 乃木若葉
 - 弥勒夕海子 https://blatan.info/?p=13758
+- 犬吠埼風
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
@@ -39,6 +40,7 @@
 - 弥勒蓮華 https://blatank.github.io/YuyuyuiStatus/renchi.html
 - 乃木若葉 https://blatank.github.io/YuyuyuiStatus/wakaba.html
 - 弥勒夕海子 https://blatank.github.io/YuyuyuiStatus/miroku.html
+- 犬吠埼風 https://blatank.github.io/YuyuyuiStatus/fu.html
 
 ### HTMLのテーブルをCSVから作る
 ```
