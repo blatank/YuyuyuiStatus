@@ -23,7 +23,7 @@
 - 東郷美森 https://blatan.info/?p=13310
 - 乃木若葉
 - 弥勒夕海子 https://blatan.info/?p=13758
-- 犬吠埼風
+- 犬吠埼風 https://blatan.info/?p=13883
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
