@@ -36,11 +36,7 @@
       </thead>
       <tbody>
         <% @datas.heros.each do |hero| %>
-          <% if hero.rare == "UR" %>
-            <tr class="ur">
-          <% else %>
-            <tr>
-          <% end %>
+          <tr class="<%= hero.rare %>">
             <td class="attr_<%= hero.color %>" >　</td>
             <td class="heroname"><%= hero.name %></td>
 
