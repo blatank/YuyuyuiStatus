@@ -2,12 +2,10 @@
 ステータス比較の記事内のテーブルはスマホで見ると見にくいので画像化。代わりにここにHTMLを置きます。
 
 ## ToDo
-- インデックスページを作成
-- スマホで観れるようにCSS調整
-- 全勇者をテーブル表示
+- 後継に移行
 
 ## 将来的なこと
-- 一人ひとりHTML書くのも面倒なので最終的にはCSVか何かを読み込ませる形に変えるかも
+- そのうち後継(https://github.com/blatank/YuyuyuiStatus2)に完全に移行します。
 
 ## 記事URL
 - 乃木園子(中学生) https://blatan.info/?p=7984
@@ -24,6 +22,7 @@
 - 乃木若葉
 - 弥勒夕海子 https://blatan.info/?p=13758
 - 犬吠埼風 https://blatan.info/?p=13883
+- 加賀城雀
 
 ## HTMLのテーブル
 - 乃木園子(中学生) https://blatank.github.io/YuyuyuiStatus/sonochu.html
@@ -41,6 +40,7 @@
 - 乃木若葉 https://blatank.github.io/YuyuyuiStatus/wakaba.html
 - 弥勒夕海子 https://blatank.github.io/YuyuyuiStatus/miroku.html
 - 犬吠埼風 https://blatank.github.io/YuyuyuiStatus/fu.html
+- 加賀城雀 https://blatank.github.io/YuyuyuiStatus/suzume.html
 
 ### HTMLのテーブルをCSVから作る
 ```
