@@ -5,7 +5,7 @@
 - 後継に移行
 
 ## 将来的なこと
-- そのうち後継(https://github.com/blatank/YuyuyuiStatus2)に完全に移行します。
+- そのうち[後継](https://github.com/blatank/YuyuyuiStatus2)に完全に移行します。
 
 ## 記事URL
 - 乃木園子(中学生) https://blatan.info/?p=7984
